@@ -11,15 +11,22 @@
     <a href="#content" id="skip-nav">Skip to main content</a>
     <header class="navbar">
         <section id="site-branding">
-            <h1 id="site-title">Site Title</h1>
-            <h2 id="site-subtitle">Site Subtitle</h2>
+            <a href="#"><h1 id="site-title">Site Title</h1></a>
         </section>
         <nav id="main-menu" aria-labelledby="mainmenulabel">
             <h2 id="mainmenulabel" class="sr-only">Main Menu</h2>
-            <ul class="nav">
+            <button id="menu-toggle" class="" type="button" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="menu-btn-bar" id="bar-top"></span>
+                <span class="menu-btn-bar" id="bar-middle"></span>
+                <span class="menu-btn-bar" id="bar-bottom"></span>
+            </button>
+            <ul class="nav  collapsed" id="navbarSupporedtContent">
+                <li class="nav-item"><a href="#" class="nav-link">Nav Link</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Nav Link</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Nav Link</a></li>
             </ul>
         </nav>
+        <script src="./js/main.js"></script>
     </header>
     <main id="content"></main>
 </body>
