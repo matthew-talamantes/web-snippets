@@ -28,7 +28,7 @@
     width: 1px;
 }
 
-header {
+.navbar {
     position: relative;
     z-index: 1;
 }
