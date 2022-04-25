@@ -28,6 +28,11 @@
     width: 1px;
 }
 
+header {
+    position: relative;
+    z-index: 1;
+}
+
 .navbar {
     height: 50px;
     display: flex;
