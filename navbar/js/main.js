@@ -23,3 +23,7 @@ const toggleMenu = () => {
 };
 
 document.getElementById("menu-toggle").addEventListener("click", toggleMenu);
+if (screen.width < 800) {
+  const navLinks = Array.from(document.getElementsByClassName("nav-link"));
+  navLinks.forEach((link) => link.setAttribute("tabindex", "-1"));
+}
