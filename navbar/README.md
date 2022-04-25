@@ -8,4 +8,5 @@ An accessable and responsive navbar.
 
 - [ ] Add in current page indication html, css, and js
 - [ ] Change aria label on menu expand
+- [ ] Close menu when a link is clicked
 - [x] Add in responsiveness
