@@ -7,4 +7,5 @@ An accessable and responsive navbar.
 ## To-Do:
 
 - [ ] Add in current page indication html, css, and js
-- [ ] Add in responsiveness
+- [ ] Change aria label on menu expand
+- [x] Add in responsiveness
